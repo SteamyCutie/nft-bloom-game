@@ -1,0 +1,5 @@
+character-site/node_modules/
+nft-contracts/node_modules/
+character-site/.env
+nft-contracts/.env
+character-site/.next/
