@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\contracts\\BloomGameAirdropping.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\contracts\\BloomGameAirdropping.sol": {
       "lastModificationDate": 1642532204123,
       "contentHash": "b22747b57335a83a3ecae8f72ed8fe95",
       "sourceName": "contracts/BloomGameAirdropping.sol",
@@ -40,7 +40,7 @@
         "BloomGameAirdropping"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721.sol": {
       "lastModificationDate": 1642530128523,
       "contentHash": "27d219ec6f69478d065fdbfa7931da68",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
@@ -77,7 +77,7 @@
         "IERC721"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
       "lastModificationDate": 1642530128664,
       "contentHash": "8398972af73b4e9e5ff3b31cad86234f",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
@@ -114,7 +114,7 @@
         "Ownable"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\Address.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\Address.sol": {
       "lastModificationDate": 1642530128293,
       "contentHash": "4cff8b2ea0d958750786b4e3ca308445",
       "sourceName": "@openzeppelin/contracts/utils/Address.sol",
@@ -149,7 +149,7 @@
         "Address"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
       "lastModificationDate": 1642530128488,
       "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
@@ -184,7 +184,7 @@
         "IERC165"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
       "lastModificationDate": 1642530128293,
       "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
@@ -219,7 +219,7 @@
         "Context"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\ERC721.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\ERC721.sol": {
       "lastModificationDate": 1642530128403,
       "contentHash": "ead7082e39cf31875ff89b22f473500d",
       "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
@@ -262,7 +262,7 @@
         "ERC721"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721Receiver.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721Receiver.sol": {
       "lastModificationDate": 1642530128539,
       "contentHash": "592df588492d45fdcf46b3cb608c0fbf",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
@@ -297,7 +297,7 @@
         "IERC721Receiver"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Metadata.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Metadata.sol": {
       "lastModificationDate": 1642530128523,
       "contentHash": "efbc0d15b80a74e34dbe8da0f3e879bb",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
@@ -334,7 +334,7 @@
         "IERC721Metadata"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
       "lastModificationDate": 1642530128695,
       "contentHash": "9c54c6c065d9e590fdcdd72c451425b9",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
@@ -369,7 +369,7 @@
         "Strings"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
       "lastModificationDate": 1642530128340,
       "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
@@ -406,7 +406,7 @@
         "ERC165"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\ERC721Enumerable.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\ERC721Enumerable.sol": {
       "lastModificationDate": 1642530128403,
       "contentHash": "88095889e59d16821879a8083f906503",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol",
@@ -444,7 +444,7 @@
         "ERC721Enumerable"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Enumerable.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Enumerable.sol": {
       "lastModificationDate": 1642530128523,
       "contentHash": "f69eb47f667b846a8698697d25eeff4e",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol",
@@ -481,7 +481,7 @@
         "IERC721Enumerable"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\contracts\\BloomGameStaking.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\contracts\\BloomGameStaking.sol": {
       "lastModificationDate": 1642532206527,
       "contentHash": "456e3bc48f133a0dbc6dc1824e4cf538",
       "sourceName": "contracts/BloomGameStaking.sol",
@@ -520,9 +520,9 @@
         "BloomGameStaking"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\contracts\\CharacterNFT.sol": {
-      "lastModificationDate": 1642536858159,
-      "contentHash": "a4d74a009e5ef4ed943d13aed462cefd",
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\contracts\\CharacterNFT.sol": {
+      "lastModificationDate": 1642634056924,
+      "contentHash": "89a97b305f961628c7788b83e4145f6e",
       "sourceName": "contracts/CharacterNFT.sol",
       "solcConfig": {
         "version": "0.8.0",
@@ -562,7 +562,7 @@
         "CharacterNFT"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC20.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC20.sol": {
       "lastModificationDate": 1642530128501,
       "contentHash": "d151fbfe7939989b9acf22797b32058b",
       "sourceName": "@openzeppelin/contracts/interfaces/IERC20.sol",
@@ -597,7 +597,7 @@
       ],
       "artifacts": []
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\ERC721URIStorage.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\ERC721URIStorage.sol": {
       "lastModificationDate": 1642530128418,
       "contentHash": "580a443491d9d70eb064b0130fc3cd01",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
@@ -634,7 +634,7 @@
         "ERC721URIStorage"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\security\\ReentrancyGuard.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\security\\ReentrancyGuard.sol": {
       "lastModificationDate": 1642530128680,
       "contentHash": "92f9448b23a90ea3bb932ee55cc3ccce",
       "sourceName": "@openzeppelin/contracts/security/ReentrancyGuard.sol",
@@ -669,7 +669,7 @@
         "ReentrancyGuard"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\cryptography\\MerkleProof.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\cryptography\\MerkleProof.sol": {
       "lastModificationDate": 1642530128664,
       "contentHash": "0b24fe01129b29655a0f7968bfc80db3",
       "sourceName": "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol",
@@ -704,7 +704,7 @@
         "MerkleProof"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
       "lastModificationDate": 1642530128503,
       "contentHash": "302d9755e46bc69d7058b0cbe7185e37",
       "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
@@ -739,7 +739,7 @@
         "IERC20"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\contracts\\NftCollection.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\contracts\\NftCollection.sol": {
       "lastModificationDate": 1642532192234,
       "contentHash": "487f04a4e99584ccbf689c141b1b0450",
       "sourceName": "contracts/NftCollection.sol",
@@ -777,7 +777,7 @@
         "NftCollection"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\contracts\\Greeter.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\contracts\\Greeter.sol": {
       "lastModificationDate": 1642526494407,
       "contentHash": "54c28c84e5277b35b8c8329ce9755dae",
       "sourceName": "contracts/Greeter.sol",
@@ -814,7 +814,7 @@
         "Greeter"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\node_modules\\hardhat\\console.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\node_modules\\hardhat\\console.sol": {
       "lastModificationDate": 1642572367291,
       "contentHash": "cc4777addd464ea56fa35b1c45df0591",
       "sourceName": "hardhat/console.sol",
@@ -849,7 +849,7 @@
         "console"
       ]
     },
-    "E:\\Projects\\Solidity\\BloomGame\\nft-contracts\\contracts\\Migrations.sol": {
+    "E:\\Projects\\Solidity\\BloomGame\\Project\\nft-contracts\\contracts\\Migrations.sol": {
       "lastModificationDate": 1642431417040,
       "contentHash": "50b3b1dc92806dc8f604fc8c5c65518f",
       "sourceName": "contracts/Migrations.sol",

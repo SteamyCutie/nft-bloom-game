@@ -6,7 +6,7 @@ const { ROPSTEN_API_URL, RINKEBY_API_URL, MAINNET_API_URL, POLYGON_API_URL, MUMB
 
 module.exports = {
   solidity: "0.8.0",
-  defaultNetwork: "ropsten",
+  defaultNetwork: "rinkeby",
   networks: {
     hardhat: {},
     ropsten: {

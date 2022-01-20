@@ -125,11 +125,11 @@ contract CharacterNFT is ERC721URIStorage, Ownable, ReentrancyGuard {
         isClaimed[_address] = false;
     }
 
-    function setWhitelistSalePrice(uint256 _price) {
+    function setWhitelistSalePrice(uint256 _price) public onlyOwner {
         WHITELIST_SALE_PRICE = _price;
     }
 
-    function setPublicSalePrice(uint256 _price) {
+    function setPublicSalePrice(uint256 _price) public onlyOwner {
         PUBLIC_SALE_PRICE = _price;
     }
 
