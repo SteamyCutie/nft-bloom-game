@@ -18,12 +18,13 @@ export const mintWhitelist = async (account, proof) => {
     console.log('minting whitelist...');
     const amount = '0.01';
     const amountToWei = web3.utils.toWei(amount, 'ether');
-    const result = characterNFT.methods.mintWhitelist(proof).send({ from: account, value: amountToWei }).then((result) => {
-      console.log(result);
-      console.log(`✅ Check out your transaction on Etherscan: https://etherscan.io/tx/` + result);
+    const result = characterNFT.methods.whitelistMint(proof).send({ from: account, value: amountToWei }).then((result) => {
+      let resAddr = `✅ Check out your transaction on Etherscan: https://${ENVIRONMENT === 'development' ? 'rinkeby' : ''}etherscan.io/tx/${result.transactionHash}`;
+
+      console.log(resAddr);
         return {
           success: true,
-          status: `✅ Check out your transaction on Etherscan: https://etherscan.io/tx/` + result
+          status: resAddr
           };
     }).catch((err) => {
         console.log("Mint transaction failed!");
@@ -42,10 +43,10 @@ export const mintPublic = async (account, numberOfTokens) => {
     const amount = (numberOfTokens * 0.02).toString();
     const amountToWei = web3.utils.toWei(amount, 'ether');
     const result = characterNFT.methods.publicMint(numberOfTokens).send({ from: account, value: amountToWei }).then((result) => {
-      console.log(`✅ Check out your transaction on Etherscan: https://etherscan.io/tx/` + result);
+      console.log(`✅ Check out your transaction on Etherscan: https://etherscan.io/tx/${result.transactionHash}`);
         return {
           success: true,
-          status: `✅ Check out your transaction on Etherscan: https://etherscan.io/tx/` + result
+          status: `✅ Check out your transaction on Etherscan: https://etherscan.io/tx/${result.transactionHash}`
           };
     }).catch((err) => {
       console.log("Mint transaction failed!");

@@ -1,4 +1,4 @@
-import { Button, Card, CardActions, CardContent, Input, Typography } from '@mui/material';
+import { Button, Card, CardActions, CardContent, Tooltip, Input, Typography, Zoom } from '@mui/material';
 import Image from 'next/image';
 
 const MintNFTCard = ({title, description, action, canMint, showNumToMint, setNumToMint, mintStatus}) => {
@@ -19,7 +19,11 @@ const MintNFTCard = ({title, description, action, canMint, showNumToMint, setNum
           <Input onChange={handleChange} defaultValue={2} type="number" label="number to mint"
             sx={{mx: 3}}
           />}
-        <Button disabled={!canMint} onClick={action} variant="contained">Mint</Button>
+        <Tooltip  TransitionComponent={Zoom} TransitionProps={{ timeout: 300 }} disabled={!canMint} title={canMint ? "Minting is now available" : "Minting is not currently available with due to some problems!"} arrow>
+          <span>
+            <Button disabled={!canMint} sx={{ m : 1 }} onClick={action} variant="contained">Mint</Button>
+          </span>
+        </Tooltip>
       </CardActions>
     </Card>
   );

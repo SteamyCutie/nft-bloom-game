@@ -1,6 +1,8 @@
 import { Grid, Stack } from '@mui/material';
 import { useWeb3React } from '@web3-react/core';
 import { useEffect, useState } from 'react';
+import Notiflix from 'notiflix';
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { mintPublic, mintWhitelist, characterNFT } from '../../pages/utils/_web3';
 import MintNFTCard from './mint-nft-card';
 import Web3 from 'web3';
@@ -50,16 +52,29 @@ const MintNFT = () => {
 
   const valid = merkleTree.verify(proof, hashedAddress, root);
   const whitelistProof = proof;
+  
+  const showNotify = (success, status) => {
+    let param = {
+      width: '500px',
+      timeout: 3000,
+      pauseOnHover: true,
+      cssAnimation: true,
+      cssAnimationDuration: 500,
+      cssAnimationStyle: 'fade',
+    };
+    if (success) Notiflix.Notify.success(status, param);
+    else Notiflix.Notify.failure(status, param);
+  }
 
   const onMintWhitelist = async () => {
     const { success, status } = await mintWhitelist(account, whitelistProof);
-    console.log(status);
+    showNotify(success, status);
     setWhitelistMintStatus(success);
-  };
+  };  
 
   const onPublicMint = async () => {
     const { success, status } = await mintPublic(account, numToMint);
-    console.log(status);
+    showNotify(success, status);
     setPublicMintStatus(success);
   };
 
